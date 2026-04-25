@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(xxd \"C:/Users/passp/OneDrive/PSION/Raymond Stone/Backup/Internal/Database/Books\")",
+      "PowerShell(head *)",
+      "Bash(dotnet build *)",
+      "Bash(dotnet run *)",
+      "WebFetch(domain:www.frodo.looijaard.name)"
+    ]
+  }
+}

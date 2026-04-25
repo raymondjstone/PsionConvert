@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "PsionConvert (Package)": {
+      "commandName": "MsixPackage"
+    },
+    "PsionConvert (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}
