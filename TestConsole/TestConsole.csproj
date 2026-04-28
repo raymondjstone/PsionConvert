@@ -7,5 +7,6 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="..\PsionDbParser.cs"/>
+    <Compile Include="..\PsionAgendaParser.cs"/>
   </ItemGroup>
 </Project>

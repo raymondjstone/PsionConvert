@@ -5,7 +5,9 @@
       "PowerShell(head *)",
       "Bash(dotnet build *)",
       "Bash(dotnet run *)",
-      "WebFetch(domain:www.frodo.looijaard.name)"
+      "WebFetch(domain:www.frodo.looijaard.name)",
+      "Bash(powershell *)",
+      "WebFetch(domain:doc.psion.info)"
     ]
   }
 }

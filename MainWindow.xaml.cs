@@ -35,7 +35,9 @@ namespace PsionConvert
             try
             {
                 byte[] data = File.ReadAllBytes(file.Path);
-                _lastResult = PsionDbParser.Parse(data);
+                _lastResult = PsionAgendaParser.IsAgendaFile(data)
+                    ? PsionAgendaParser.Parse(data)
+                    : PsionDbParser.Parse(data);
 
                 if (!string.IsNullOrEmpty(_lastResult.Error))
                 {
